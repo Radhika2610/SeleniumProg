@@ -8,7 +8,7 @@ driver.maximize_window()
 driver.get("file:///H:/Radhika/Velocity/HTML/Webtable.html")
 time.sleep(2)
 
-allRows=driver.find_elements(By.XPATH,"//table[@id='Booklist']//tr")
+allRows=driver.find_elements(By.XPATH,"//table[@id='abc123']//tr")
 print(len(allRows))
 
 time.sleep(10)

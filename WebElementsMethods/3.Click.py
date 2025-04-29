@@ -9,6 +9,7 @@ time.sleep(2)
 #click on create new acc link
 driver.find_element(By.XPATH,"//a[text()='Create new account']").click()
 time.sleep(2)
+
 #click on female radio button
 driver.find_element(By.XPATH,"(//input[@class='_8esa'])[1]").click()
 
